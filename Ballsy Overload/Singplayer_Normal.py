@@ -10,17 +10,7 @@ pygame.font.init()
 win = pygame.display.set_mode((1920, 1080))
 run = True
 
-print("1 pro Singplayer 2 pro co-op")
-print("Obtiznost 1 = normal 2= Hard")
-gamemode = input("GAMEMODE:")
-difuculity= input("Obtiznost:")
 
-if gamemode == "1":
-    run = True
-if gamemode== "2" and difuculity == 2:
-    exec(open("Multiplayer_Hard.py").read())
-if gamemode== "2" and difuculity == 1:
-    exec(open("Multiplayer_Normal.py").read())
 
  
 x = 150
